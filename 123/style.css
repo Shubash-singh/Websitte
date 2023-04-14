@@ -1,0 +1,43 @@
+.facilities{
+    width: 31%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+}
+.row{
+    display: inline-flex;
+}
+.facilities-col{
+    flex-basis: 100%; 
+    border-radius: 10px; 
+    margin-bottom: 5%; 
+    text-align: left;
+}
+.facilities-col img{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    float: left;
+}
+.facilities-col p{
+    padding: 0;
+}
+.facilities-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+.facilities-col a {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+}
+.facilities-col:hover {
+    background-color: rgb(26, 26, 26);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+}
